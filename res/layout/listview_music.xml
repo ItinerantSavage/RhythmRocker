@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+		android:layout_height="38dp" >
+
+        <TextView
+            android:id="@+id/textView_track_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/imageView_track_icon"
+            android:text="@string/track_index_pattern" />
+
+        <ImageView
+            android:id="@+id/imageView_track_icon"
+            android:layout_width="35dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/avoid_warning"
+            android:src="@drawable/ic_track" />
+
+        <TextView
+            android:id="@+id/textView_track_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView_track_index"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:text="@string/track_name_sample"
+            android:maxLines="1"
+            android:textSize="17sp" />
+	    
+	</RelativeLayout>
+ 
+
